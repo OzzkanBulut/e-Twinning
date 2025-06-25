@@ -17,15 +17,16 @@ const ETwinningWebsite = () => {
 
   // Örnek resimler - gerçek projede bunlar değiştirilecek
   const images = [
-    { id: 1, url: image1, caption: "Konferans Etkinliği", description: "Çocuk hakları konferansında öğrenciler ve uzmanlar bir araya geldi" },
-    { id: 2, url: image2, caption: "Öğrenciler ve Öğretmenler", description: "Projemize katılan tüm öğrenci ve öğretmenlerimiz" },
-    { id: 3, url: image3, caption: "Origami Çalışmaları", description: "Sadako kitabından ilhamla origami turna kuşu çalışmaları" },
-    { id: 4, url: image4, caption: "Turna Kuşu Yapımı", description: "Barış ve umut sembolü turna kuşlarımız" },
-    { id: 5, url: image5, caption: "Rap Şarkısı Çalışması", description: "Çocuk hakları temalı rap şarkımızın hazırlanması" },
-    { id: 6, url: image6, caption: "Proje Sunumu", description: "The Voice of the Future proje sunumumuz" },
-    { id: 7, url: image7, caption: "Çocuk Hakları Farkındalığı", description: "Çocuk haklarına dair farkındalık çalışmalarımız" },
-    { id: 8, url: image8, caption: "Geleceğin Sesi", description: "Projemizin final sunumu ve değerlendirmesi" }
-  ];
+  { id: 1, url: image1, caption: "e-Twinning Panosu", description: "Projemizin duyurulduğu ve çalışmaların sergilendiği pano." },
+  { id: 2, url: image2, caption: "Öğrenci Anketi", description: "Katılımcı öğrencilerin proje hakkındaki görüşlerini topladık." },
+  { id: 3, url: image3, caption: "Poster Çalışması", description: "Çocuk hakları temalı yaratıcı posterler hazırlandı." },
+  { id: 4, url: image4, caption: "Konferans", description: "Uzmanların katılımıyla gerçekleşen bilgilendirici konferans." },
+  { id: 5, url: image5, caption: "Sunum", description: "Projeyle ilgili detaylı ve etkileyici sunum yapıldı." },
+  { id: 6, url: image6, caption: "Proje Tanıtımı", description: "The Voice of the Future projesinin genel tanıtımı." },
+  { id: 7, url: image7, caption: "Rap Şarkısı", description: "Çocuk hakları temalı rap şarkımızın yazım anları." },
+  { id: 8, url: image8, caption: "Kitap ve Origami", description: "Sadako kitabını okuyup origami turna kuşu yaptık." }
+];
+
 
   useEffect(() => {
     if (isAutoPlaying && !isModalOpen) {
