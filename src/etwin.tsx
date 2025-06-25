@@ -16,16 +16,17 @@ const ETwinningWebsite = () => {
   const [modalCurrentImage, setModalCurrentImage] = useState(0);
 
   // Örnek resimler - gerçek projede bunlar değiştirilecek
-  const images = [
+const images = [
   { id: 1, url: image1, caption: "e-Twinning Panosu", description: "Projemizin duyurulduğu ve çalışmaların sergilendiği pano." },
   { id: 2, url: image2, caption: "Öğrenci Anketi", description: "Katılımcı öğrencilerin proje hakkındaki görüşlerini topladık." },
   { id: 3, url: image3, caption: "Poster Çalışması", description: "Çocuk hakları temalı yaratıcı posterler hazırlandı." },
-  { id: 4, url: image4, caption: "Konferans", description: "Uzmanların katılımıyla gerçekleşen bilgilendirici konferans." },
-  { id: 5, url: image5, caption: "Sunum", description: "Projeyle ilgili detaylı ve etkileyici sunum yapıldı." },
+  { id: 4, url: image4, caption: "Bayrak Çizimi", description: "Öğrenciler proje kapsamında farklı ülke bayraklarını çizdi." },
+  { id: 5, url: image5, caption: "Proje Sonu Sergisi", description: "Proje boyunca yapılan tüm çalışmaların sergilendiği final etkinliği." },
   { id: 6, url: image6, caption: "Proje Tanıtımı", description: "The Voice of the Future projesinin genel tanıtımı." },
   { id: 7, url: image7, caption: "Rap Şarkısı", description: "Çocuk hakları temalı rap şarkımızın yazım anları." },
   { id: 8, url: image8, caption: "Kitap ve Origami", description: "Sadako kitabını okuyup origami turna kuşu yaptık." }
 ];
+
 
 
   useEffect(() => {
